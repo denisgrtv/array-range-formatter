@@ -1,6 +1,6 @@
 {
   "name": "array-range-formatter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Formats arrays to string by range",
   "main": "index.js",
   "scripts": {

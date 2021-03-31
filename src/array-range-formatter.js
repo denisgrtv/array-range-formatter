@@ -10,7 +10,7 @@ const format = (arr = []) => new Promise((resolve) => {
   if (arrCopy.length === 1) return resolve(`${arrCopy[0]}`);
   if (arrCopy.length === 2) return resolve(`${arrCopy.shift()},${arrCopy.pop()}`);
 
-  setTimeout(async () => {
+  return setTimeout(async () => {
     const breakIndex = arrCopy.findIndex((value, index) => {
       const previousValue = arrCopy[index - 1] || value;
       return ((value - previousValue) > 1);

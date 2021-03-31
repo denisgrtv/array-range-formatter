@@ -1,0 +1,31 @@
+{
+  "name": "array-range-formatter",
+  "version": "1.0.0",
+  "description": "Formats arrays to string by range",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -u bdd -R min -t 2000 --recursive ./tests/**/*.spec.js",
+    "mocha:inspect": "mocha -u bdd -t 2000 --inspect=0.0.0.0:9000 -w ./tests/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denisgrtv/array-range-formatter.git"
+  },
+  "keywords": [
+    "array",
+    "range"
+  ],
+  "author": "Denis Gurtovoy <denisgtv@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/denisgrtv/array-range-formatter/issues"
+  },
+  "homepage": "https://github.com/denisgrtv/array-range-formatter#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "mocha": "^8.3.2"
+  }
+}
